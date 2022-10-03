@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #fff5e4;
+  --text-decoration: none;
+  --box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.3);
+  --text-aligh: center;
+}
+
+body {
+  font-family: "Splash", cursive;
+  text-align: var(--text-aligh);
+  font-size: 20px;
+  background-color: var(--primary-color);
+}
+
+h1,
+h2 {
+  text-align: var(--text-aligh);
+  margin: 0;
+}
+h1 {
+  margin-top: 80px;
+}
+h2 {
+  font-size: 76px;
+}
+a {
+  color: black;
+  text-decoration: var(--text-decoration);
+}
+
+button {
+  width: 150px;
+  margin: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+button:hover {
+  transition: all 200ms linear;
+  cursor: pointer;
+}

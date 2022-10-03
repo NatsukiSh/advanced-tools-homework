@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Final Project</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+      font-weight: 100;
+      color: #ca4171;
+    }
+    h2 {
+      text-align: center;
+      font: bolder;
+
+      padding: 20px;
+      font-size: 35px;
+      border: thick double #ca4171;
+      border-radius: 50px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      border-radius: 50px;
+    }
+    p {
+      text-align: center;
+      line-height: 1, 5;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      font-size: 24px;
+      color: #ca4171;
+      border: 4px solid #ca4171;
+      border-radius: 50px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      transition: all 200ms ease-in-out;
+    }
+    button:hover {
+      background: #ffebbb;
+      color: #c3195d;
+      cursor: pointer;
+    }
+    .container {
+      max-width: 600;
+      margin: 0 auto;
+      padding: 30px 100px;
+    }
+    .learn-more {
+      display: block;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .learn-more:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <em><h1>🧶Hooked with Crochetting 🧶</h1></em>
+      <h2>Let's have fun to learn new Pattern</h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/031/original/istockphoto-485725914-612x612.jpg?1655829045"
+      />
+      <br />
+      <hr />
+      <p>
+        Crochet is a process of creating textiles by using a crochet hook to
+        interlock loops of yarn, thread, or strands of other materials. The name
+        is derived from the French term crochet, meaning
+        <strong>'small hook'</strong>. Hooks can be made from a variety of
+        materials, such as metal, wood, bamboo, or plastic. The key difference
+        between crochet and knitting, beyond the implements used for their
+        production, is that each stitch in crochet is completed before the next
+        one is begun, while knitting keeps many stitches open at a time. Some
+        variant forms of crochet, such as Tunisian crochet and broomstick lace,
+        do keep multiple crochet stitches open at a time. <br />
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/Crochet"
+        target="_blank"
+        class="learn-more"
+      >
+        More Info in Wikipedia</a
+      >
+      <hr />
+    </div>
+
+    <button class="freeButton">Get Free Crochet Pattern</button>
+
+    <p>This page built with ❤ by Natsuki Shuko</p>
+    <script>
+      function Free() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+
+        alert("Thank you " + name + ", Have a lovely Crochet time ☕🧶");
+      }
+      let freeButton = document.querySelector(".freeButton");
+      freeButton.addEventListener("click", Free);
+    </script>
+  </body>
+</html>

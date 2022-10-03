@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Natsuki Shuko</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Natsuki Shuko</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact-me">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>👋 Hi I am</h1>
+    <h2>Natsuki Shuko</h2>
+    <p><small>🎌 Front-end developer, based in Germany</small></p>
+    <button type="button" class="btn btn-outline-primary">
+      <a href="about.html#contact-me">Contact Me</a>
+    </button>
+    <button type="button" class="btn btn-outline-success">
+      <a href="about.html">About Me</a>
+    </button>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <em><h3 class="d-flex">🧶Hooked with Crochetting 🧶</h3></em>
+          <h3 class="d-flex">Let's have fun to learn new Pattern</h3>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/031/original/istockphoto-485725914-612x612.jpg?1655829045"
+            class="d-flex img-fluid border rounded-pill shadow"
+          />
+          <br />
+        </div>
+
+        
+          <div class="col-sm-6">
+            <h2 class="mb-3">Crochet App</h2>
+            <p>
+              Crochet is a process of creating textiles by using a crochet hook
+              to interlock loops of yarn, thread, or strands of other materials.
+              The name is derived from the French term crochet, meaning
+              <strong>'small hook'</strong>. Hooks can be made from a variety of
+              materials, such as metal, wood, bamboo, or plastic. The key
+              difference between crochet and knitting, beyond the implements
+              used for their production, is that each stitch in crochet is
+              completed before the next one is begun, while knitting keeps many
+              stitches open at a time. Some variant forms of crochet, such as
+              Tunisian crochet and broomstick lace, do keep multiple crochet
+              stitches open at a time. <br />
+            </p>
+          
+          <a
+            href="https://en.wikipedia.org/wiki/Crochet"
+            target="_blank"
+            class="learn-more"
+          >
+            <small> More Info in Wikipedia</small></a
+          >
+          <button class="freeButton btn btn-warning">
+            Get Free Crochet Pattern
+          </button>
+        </div>
+
+          
+
+          <script>
+            function Free() {
+              let name = prompt("What is your name?");
+              let email = prompt("What is your email address?");
+
+              alert("Thank you " + name + ", Have a lovely Crochet time ☕🧶");
+            }
+            let freeButton = document.querySelector(".freeButton");
+            freeButton.addEventListener("click", Free);
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
