@@ -1,10 +1,14 @@
+:root {
+  --primary-color: #fff5e4;
+  --text-aligh: center;
+}
+
 body {
-  font-family: arial, sans-serif;
-  font-family: "Splash", cursive;
+  font-family: "Handlee", cursive;
+  background: var(--primary-color);
 }
 
 h1 {
-  color: black;
   color: white;
   font-size: 24px;
   font-weight: 100;
@@ -19,7 +23,6 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: black;
   color: white;
   font-size: 16px;
   font-weight: 100;
@@ -33,6 +36,7 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
 }
+
 .weather-app {
   padding: 20px;
   border: 1px solid#dadde1;
@@ -48,7 +52,6 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: black;
   color: white;
   font-size: 64px;
   line-height: 1;
@@ -68,18 +71,16 @@ li:first-letter {
 }
 .weather-forecast {
   margin-top: 20px;
-  text-align: center;
+  text-align: var(--text-aligh);
 }
 
 .weather-forecast-date {
   font-size: 16px;
-  color: black;
   color: white;
 }
 
 .weather-forecast-temperature-max {
   font-size: 13px;
-  color: black;
   color: white;
 }
 

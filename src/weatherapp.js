@@ -97,14 +97,14 @@ function displayTemperature(response) {
 
 function changeBackgroundImage() {
   console.log("DHD", celsiusTemperature);
-  if (celsiusTemperature > 20) {
+  if (celsiusTemperature > 15) {
     document.querySelector(
       ".weather-app"
-    ).style.backgroundImage = `url("img/sun.jpg")`;
+    ).style.backgroundImage = `url("/img/sun.jpg")`;
   } else {
     document.querySelector(
       ".weather-app"
-    ).style.backgroundImage = `url("img/rainy.jpg")`;
+    ).style.backgroundImage = `url("/img/rainy.jpg")`;
   }
 }
 function search(city) {
