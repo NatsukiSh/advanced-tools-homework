@@ -44,9 +44,9 @@ a.email-link:hover {
   cursor: pointer;
 }
 
-@media (max-widith: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
+@media (max-width: 900px) {
+  h1,
+  h3 {
+    font-size: 50px;
   }
 }
