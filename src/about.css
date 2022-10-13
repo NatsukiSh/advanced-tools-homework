@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fff5e4;
+  --primary-color: #f9f7fe;
   --text-aligh: center;
 }
 
@@ -7,7 +7,7 @@ body {
   font-family: "Handlee", cursive;
   text-align: var(--text-aligh);
   font-size: 20px;
-  background-color: var(--primary-color);
+  background: var(--primary-color);
 }
 
 h1 {
