@@ -24,9 +24,14 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg bg-white shadow fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/" title="Homepage">Natsuki Shuko</a>
+        <a class="navbar-brand" 
+        href="https://www.shecodes.io/graduates/47444-natsuki-shuko" 
+        target="_blank" 
+        title="My personal page at SheCodes">
+          <img src="/img/logo.png"  alt="SheCodes logo">
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,13 +49,13 @@
               <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/weatherapp-index.html" title="Weather forecast">Weather forecast</a>
+              <a class="nav-link" href="/about.html" title="About Natsuki Shuko">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html" title="About Natsuki Shuko">About me</a>
+              <a class="nav-link" href="/work.html" title="My Projects">Work</a>
             </li>
               <li class="nav-item">
-              <a class="nav-link" href="/about.html#contact-me" title="Contact Natsuki Shuko">Contact me</a>
+              <a class="nav-link" href="/contact.html" title="Contact Natsuki Shuko">Contact</a>
             </li>
           </ul>
         </div>
@@ -62,12 +67,9 @@
     <h1 class="mp-5">👋 Hi I am</h1>
     <h2>Natsuki Shuko</h2>
     <p>🇩🇪🥨 Front-end developer, based in Germany</p>
-    <button type="button" class="btn btn-outline-primary">
-      <a href="/about.html#contact-me" title="Contact Natsuki Shuko">Contact Me</a>
-    </button>
-    <button type="button" class="btn btn-outline-success ">
-      <a href="/about.html" title="About Natsuki Shuko">About Me</a>
-    </button>
+    <a href="/about.html" class="btn btn-branding btn-outline-primary mt-5" 
+         title="Let's check the free Pattern">
+            Contact me</a>
   </div>
     
     
@@ -99,9 +101,9 @@
             at a time. <br />
           </p>
 
-          <button class="freeButton btn btn-outline-warning mb-5" title="Let's check it out latest free Crochet pattern!">
-            Get Free Crochet Pattern
-          </button>
+         <a href="/work.html" class="btn btn-branding btn-outline-primary mt-5" 
+         title="Let's check the free Pattern">
+            Lean more</a>
         </div>
         <br />
         <br />
@@ -110,7 +112,7 @@
   <div class="row">
         <div class="col-sm-6">
           <h2 class="mb-3">Weather App</h2>
-          <p>
+          <p class="mb-5">
             Weather is the state of the atmosphere, describing for example the
             degree to which it is hot or cold, wet or dry, calm or stormy, clear
             or cloudy. On Earth, most weather phenomena occur in the lowest
@@ -122,7 +124,8 @@
             generally understood to mean the weather of Earth.
             <br />
           </p>
-          <a href="/weatherapp-index.html"><button class="btn btn-outline-warning mb-5" title="Let's check the current weather forecast.">Check current weather</button></a>
+          <a href="/work.html" class="btn btn-branding btn-outline-primary mb-5" title="Let's check the current weather forecast.">
+            Learn more</a>
           </div>
           <div class="col-sm-6">
             <h3 class="mb-3">
@@ -136,45 +139,9 @@
             <br />
           </div>
         </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-6">
-              <h3 class="mb-3">
-              <img src="/img/Yogurt.JPG" 
-              alt="Eat yogurt and become healthy" 
-              class="d-flex img-fluid rounded shadow d-none d-sm-block mt-5"  
-              title="Let's lean about Yogurt">
-            </h3>
-            <br />
-          </div>
-
-            <div class="col-sm-6">
-              <h2 class="mb-3">
-                Yogurt App
-              </h2>
-              <p>Yogurt is a food produced by bacterial fermentation of milk. The bacteria used to make yogurt are known as yogurt cultures. Fermentation of sugars in the milk by these bacteria produces lactic acid, which acts on milk protein to give yogurt its texture and characteristic tart flavor. Cow's milk is the milk most commonly used to make yogurt. Milk from water buffalo, goats, ewes, mares, camels, and yaks are also used to produce yogurt. The milk used may be homogenized or not. It may be pasteurized or raw. Each type of milk produces substantially different results.</p>
-            <br />
-          <a href="#"><button class="btn btn-outline-warning mb-5" title="Let's get healthy Yogurt recept!">Check healthy Yogurt</button></a>
-          </div>
-          </div>
+        
         </div>
-      </div> 
-      <br /> 
-      <br /> 
-      <br /> 
-          <script>
-            function Free() {
-              let name = prompt("What is your name?");
-              let email = prompt("What is your email address?");
-
-              alert("Thank you " + name + ", Have a lovely Crochet time ☕🧶");
-            }
-            let freeButton = document.querySelector(".freeButton");
-            freeButton.addEventListener("click", Free);
-          </script>
-        </div>
-      </div>
-      <footer>
+        <footer class="container">
         <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
           <div>
             <h3>
@@ -183,7 +150,7 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3" title="Contact Natsuki">Contact Natsuki</a>
+            <a href="" class="btn btn-branding mt-3" title="Contact Natsuki">Contact me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
@@ -193,12 +160,25 @@
           <a href="https://github.com/NatsukiSh" target="_blank" title="GitHub Profile">
             <i class="fa-brands fa-square-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/natsuki-shuko-81890a1b0/" target="_blank" title="GitHub Profile">
+          <a href="https://www.linkedin.com/in/natsuki-shuko-81890a1b0/" target="_blank" title="LinkedIn Profile">
             <i class="fa-brands fa-linkedin"></i>
           </a>
           </div>
-        </div>
+          <p class="text-center mt-4">
+            💻This project coded by Natsuki Shuko, and it is 
+            <a href="https://github.com/NatsukiSh/responsive-homework" target="_blank">
+              Open-sourced💻
+            </a>
+          </p>
       </footer>
+      </div> 
+      <br /> 
+      <br /> 
+      <br /> 
+          
+        </div>
+      </div>
+      
     </div>
   </body>
 </html>
