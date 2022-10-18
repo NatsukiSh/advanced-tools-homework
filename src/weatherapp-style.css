@@ -1,7 +1,9 @@
 :root {
   --primary-color: #f9f7fe;
-  --text-aligh: center;
+  --branding-color: #b1afff;
+  --secondary-color: f9f7fe;
   --text-decoration: none;
+  --text-aligh: center;
 }
 
 body {
@@ -116,7 +118,30 @@ li:first-letter {
   color: black;
 }
 
-footer .contact-box {
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+footer.contact-box {
   background: var(--secondary-color);
   padding: 30pxc 120px;
   border-radius: 10px;
