@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Source Serif Pro", serif;
   text-align: var(--text-aligh);
   font-size: 20px;
   background-color: var(--primary-color);
