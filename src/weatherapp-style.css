@@ -1,4 +1,5 @@
 :root {
+  --main-color: #6c738e;
   --primary-color: #f9f7fe;
   --branding-color: #b1afff;
   --secondary-color: f9f7fe;
@@ -9,6 +10,7 @@
 body {
   font-family: "Source Serif Pro", serif;
   background: var(--primary-color);
+  color: var(--main-color);
 }
 
 h1 {
