@@ -13,10 +13,14 @@ body {
   background-color: #d8eacc;
 }
 
+.logo {
+  width: 70px;
+}
+
 .container {
   box-shadow: 0 20px 30px rgb(0, 0, 0, 0.3);
   background-color: white;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-bottom: 80px;
   padding: 40px;
   border-radius: 16px;
@@ -94,5 +98,9 @@ button.btn {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
+  }
+
+  .logo {
+    width: 45px;
   }
 }

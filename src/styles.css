@@ -16,6 +16,10 @@ body {
   color: var(--main-color);
 }
 
+.logo {
+  width: 70px;
+}
+
 h1,
 h2 {
   text-align: var(--text-aligh);
@@ -143,6 +147,10 @@ footer a.email-link:hover {
 
   h3 {
     font-size: 20px;
+  }
+
+  .logo {
+    width: 45px;
   }
 
   .btn {
