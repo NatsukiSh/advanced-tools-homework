@@ -127,16 +127,3 @@ function displayCelsiusTemperature(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 search("New York");
-
-function Free() {
-  let message = prompt("How often do you crochet?");
-  let firstName = prompt("What is your name?");
-  let email = prompt("What is your email address?");
-  if (firstName.length > 0) {
-    alert("Thank you " + firstName + ", Have a lovely Crochet time ☕🧶");
-  } else {
-    alert("Thank you, dear " + "😀" + ", Have a lovely Crochet time ☕🧶");
-  }
-}
-let freeButton = document.querySelector(".freeButton");
-freeButton.addEventListener("click", Free);
