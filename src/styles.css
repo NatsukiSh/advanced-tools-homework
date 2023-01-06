@@ -10,13 +10,10 @@
 
 body {
   font-family: "Source Serif Pro", serif;
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
   );
   text-align: var(--text-aligh);
   font-size: 20px;
@@ -25,6 +22,10 @@ body {
 
 .logo {
   width: 70px;
+}
+
+.nav-link {
+  color: white;
 }
 
 h1,
@@ -50,6 +51,14 @@ h5 {
 
 .content-container {
   padding: 60px 20px;
+}
+
+.img-fluid {
+  width: 50%;
+}
+
+.info-btn {
+  padding: 30px;
 }
 
 .content-container h1 {
